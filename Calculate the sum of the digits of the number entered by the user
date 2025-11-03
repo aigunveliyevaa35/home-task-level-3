@@ -1,0 +1,16 @@
+#include <iostream>
+Using namespace std;
+
+Int main()	{
+	int a;
+	cin>>a;
+	int c=0;
+	int n=1;
+	while (a>0)	{
+		n=a%10;
+		c=c+n;
+		a=a/10;
+	}
+	cout<<c;
+}
+
