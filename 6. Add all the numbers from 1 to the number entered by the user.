@@ -1,0 +1,18 @@
+#include <iostream>
+Using namespace std;
+
+Int main()	{
+	int a;
+	int i=1;
+	int c=0;
+	
+	cout<<“Bir eded daxil et:”;
+	cin>>n;
+
+	while (i<=n)	{
+		c+=i;
+		i++;
+	}
+	cout<<“1-den <<n<<-e qeder ededlerin cemi:”<<c<<endl;
+	return 0;
+}
