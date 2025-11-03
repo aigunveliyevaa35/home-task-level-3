@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()  {
+    int n=0;
+    int r=0;
+    
+    cout<<"Bir eded daxil et:";
+    cin>>n;
+    
+    while (n!=0)    {
+        int d=n%10;
+        r=r*10+d;
+        n/=10;
+    }
+    cout<<"Ededin tersi:"<<r<<endl;
+    return 0;
+}
