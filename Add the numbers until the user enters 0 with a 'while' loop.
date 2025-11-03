@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()  {
+    int n;
+    int c=0;
+    
+    cout<<"Ededleri daxil et(0 daxil etdikde proqram dayanacaq):";
+    
+    while (true)    {
+            cin>>n;
+            if (n==0)
+                break;
+            c+=n;
+}
+    
+    cout<<"Daxil edilen ededlerin cemi:"<<c<<endl;
+    return 0;
+}
